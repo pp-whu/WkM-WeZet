@@ -1,0 +1,83 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'mixins';
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-typography;
+@include foundation-forms;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+*,
+* ::after,
+* ::before {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  @include clearfix;
+}
+//Layout
+
+.outer {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.page-wrap {
+  margin: 0 auto;
+  max-width: rem-calc(1680);
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h2,
+h3,
+h4 {
+  // text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.teaser {
+  width: 30%;
+  margin-bottom: $grid-column-gutter/2;
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
+.col-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.headline {
+  padding-top: $grid-column-gutter/4;
+}
+
+.text {
+  padding-top: rem-calc(5);
+}
