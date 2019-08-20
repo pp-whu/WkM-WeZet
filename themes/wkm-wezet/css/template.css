@@ -1,6 +1,30 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+.klassische-werkstatt.post-meta:before {
+  background: #ba1522; }
+
+.categories-list .klassische-werkstatt a {
+  border-color: #ba1522; }
+
+.a.post-meta:before {
+  background: #62388a; }
+
+.categories-list .a a {
+  border-color: #62388a; }
+
+.betriebsrat.post-meta:before {
+  background: #6399c8; }
+
+.categories-list .betriebsrat a {
+  border-color: #6399c8; }
+
+.politik-was-uns-betrifft.post-meta:before {
+  background: #bfb91f; }
+
+.categories-list .politik-was-uns-betrifft a {
+  border-color: #bfb91f; }
+
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.3
@@ -1235,9 +1259,6 @@ select {
   margin: 0 auto;
   max-width: 93.33333rem; }
 
-.center {
-  text-align: center; }
-
 img {
   display: block;
   height: auto;
@@ -1260,7 +1281,8 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  margin-top: 6.66667rem; }
 
 .teaser {
   width: 30%;
@@ -1283,3 +1305,32 @@ a {
 
 .text {
   padding-top: 0.27778rem; }
+
+.item-1 {
+  border-bottom: 0.83333rem solid #d25300;
+  padding-bottom: 1.66667rem; }
+
+.item-2 {
+  border-bottom: 0.83333rem solid #c0392b;
+  padding-bottom: 1.66667rem; }
+
+.item-3 {
+  border-bottom: 0.83333rem solid #27ae60;
+  padding-bottom: 1.66667rem; }
+
+.item-4 {
+  border-bottom: 0.83333rem solid #27ae60;
+  padding-bottom: 1.66667rem; }
+
+.item-5 {
+  border-bottom: 0.83333rem solid #8e44ad;
+  padding-bottom: 1.66667rem;
+  margin-top: -3.33333rem; }
+
+.item-6 {
+  border-bottom: 0.83333rem solid #0fb9b1;
+  padding-bottom: 0.83333rem; }
+
+.item-7 {
+  border-bottom: 0.83333rem solid #0fb9b1;
+  padding-bottom: 0.83333rem; }

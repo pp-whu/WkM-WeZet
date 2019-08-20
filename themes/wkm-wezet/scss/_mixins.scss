@@ -85,3 +85,20 @@
   width: $width;
   height: $height;
 }
+
+// colors
+@mixin colors( $category, $color ) {
+  .#{$category} {
+    &.post-meta:before {
+      background: $color;
+    }
+
+    .categories-list & a {
+      border-color: $color;
+    }
+  }
+}
+@include colors ( 'klassische-werkstatt', #ba1522);
+@include colors ( 'a', #62388a);
+@include colors ( 'betriebsrat', #6399c8);
+@include colors ( 'politik-was-uns-betrifft', #bfb91f);
