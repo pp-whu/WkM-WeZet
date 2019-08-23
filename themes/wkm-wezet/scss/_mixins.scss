@@ -87,18 +87,8 @@
 }
 
 // colors
-@mixin colors( $category, $color ) {
-  .#{$category} {
-    &.post-meta:before {
-      background: $color;
-    }
+@mixin items() {
+  border-bottom: $grid-column-gutter/4 solid;
+  padding-bottom: $grid-column-gutter/2                   ;
 
-    .categories-list & a {
-      border-color: $color;
-    }
-  }
 }
-@include colors ( 'klassische-werkstatt', #ba1522);
-@include colors ( 'a', #62388a);
-@include colors ( 'betriebsrat', #6399c8);
-@include colors ( 'politik-was-uns-betrifft', #bfb91f);
