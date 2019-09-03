@@ -12,17 +12,19 @@
 <body class="home">
   <div class="outer">
     <header class="header">
-      <a href="#">
-        <img src="img/logo.svg" alt="">
+      <a class="logo" href="#">
+        <img src="img/logo-01.svg" alt="">
       </a>
-      <div class="search h-search" id="search">
-        <a href="#" class="btn-search" title="Suche" aria-label="Suche ein-/ausblenden">
-          <i class="s-icon">
+      <div class="search">
+        <form action="" method="post">
+          <!-- <label for="">Suche</label> -->
+          <!-- <input type="text" class="search-input" title="Suchbegriff eingeben" /> -->
+          <button class="search-button" type="submit" value="Suchen" title="Suchen">
             <svg role="img" class="symbol" aria-hidden="true" focusable="false">
-              <use xlink:href="https://sbs.de/wp-content/themes/sbs/img/icons.svg#icon-search"></use>
+              <use xlink:href="img/icons.svg#search"></use>
             </svg>
-          </i>
-        </a>
+          </button>
+        </form>
       </div>
     </header>
     <main class="page-wrap main">

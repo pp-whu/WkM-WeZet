@@ -1247,6 +1247,12 @@ ul {
 a {
   text-decoration: underline; }
 
+.logo {
+  display: block;
+  width: 30%;
+  height: auto;
+  padding: 1.66667rem; }
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;

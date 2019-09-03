@@ -43,6 +43,13 @@ a {
   text-decoration: underline;
 }
 
+// header-bar
+.logo {
+  display: block;
+  width: 30%;
+  height: auto;
+  padding: $grid-column-gutter/2;
+}
 // main
 .main {
   display: flex;
